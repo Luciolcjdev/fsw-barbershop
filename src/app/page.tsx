@@ -1,9 +1,5 @@
-import { Button } from "./components/ui/button"
+import Header from "./components/header"
 
 export default function Home() {
-  return (
-    <Button variant="default" type="button">
-      Hello world!
-    </Button>
-  )
+  return <Header />
 }
