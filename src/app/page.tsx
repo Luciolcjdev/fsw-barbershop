@@ -30,10 +30,11 @@ export default function Home() {
             className="rounded-xl object-cover"
           />
         </div>
+
         <h2 className="mb-3 mt-6 text-xs font-bold uppercase text-gray-400">
           Agendamentos
         </h2>
-        <Card className="mt-6">
+        <Card>
           <CardContent className="flex justify-between p-0">
             <div className="flex flex-col gap-2 py-5 pl-5">
               <Badge className="w-fit">Confirmado</Badge>
